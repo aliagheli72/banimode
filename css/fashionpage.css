@@ -1,0 +1,334 @@
+.tops {
+  width: 100%;
+  height: 350px;
+}
+
+.tops img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.daste {
+  width: 100%;
+  height: 350px;
+
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.daste .titr {
+  width: 150px;
+  height: 40px;
+
+  margin: 5px auto;
+  text-align: center;
+}
+.daste .titr h2 {
+  font-family: yekan;
+  font-size: 24px;
+}
+
+.daste .center {
+  width: 1390px;
+  height: 265px;
+
+  margin: 5px auto;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.daste .center a {
+  display: inline-block;
+  width: 176px;
+  height: 233px;
+  margin-left: 10px;
+}
+.daste .center a img {
+  width: 176px;
+  height: 233px;
+  object-fit: cover;
+  transition: 300ms;
+}
+
+.daste .center a:hover img {
+  transform: scale(1.1, 1.1);
+}
+
+.item-2 {
+  width: 100%;
+  height: 270px;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+.item-2 .center {
+  width: 1430px;
+  height: 255px;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.item-2 .center a {
+  width: 330px;
+  height: 251px;
+  margin-left: 20px;
+}
+
+.item-2 .center a img {
+  width: 330px;
+  height: 251px;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+.item-2 .center a:hover img {
+  transform: scale(1.1, 1.1);
+}
+
+.nslider {
+  width: 100%;
+  height: 715px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.nslider .titr {
+  width: 150px;
+  height: 40px;
+  margin: 5px auto;
+  text-align: center;
+}
+.nslider .titr h2 {
+  width: 100%;
+  height: inherit;
+  font-family: yekan;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.nslider .sdcenter {
+  width: 1410px;
+  height: 500px;
+  margin: 10px auto;
+}
+
+/* card-slider */
+
+.nslider .sdcenter .card {
+  width: 330px;
+  height: 396px;
+  margin: 50px auto;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: unset;
+}
+.nslider .sdcenter .card .image {
+  width: 330px;
+  height: 396px;
+}
+.nslider .sdcenter .card .image img {
+  width: 330px;
+  height: 396px;
+  object-fit: cover;
+}
+.nslider .sdcenter .card .cover {
+  width: 100%;
+  height: 100%;
+  background-color: #2b2b2bbb;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  transition: 300ms;
+}
+.nslider .sdcenter .card .cover h1 {
+  width: inherit;
+  height: 40px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: 300ms;
+  transform: translateX(100px);
+  transition-delay: 300ms;
+}
+.nslider .sdcenter .card .cover p {
+  width: inherit;
+  height: 40px;
+  font-family: yekan;
+  font-size: 14px;
+  line-height: 40px;
+  color: whitesmoke;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: 300ms;
+  transition-delay: 500ms;
+  transform: translateX(100px);
+}
+.nslider .sdcenter .card .cover h3 {
+  width: 100%;
+  height: 40px;
+  font-family: yekan;
+  font-size: 14px;
+  color: #1dbf6f;
+  opacity: 0;
+  transition: 300ms;
+  transition-delay: 600ms;
+  transform: translatey(100px);
+}
+.nslider .sdcenter .card .cover h3 span {
+  margin-left: 30px;
+  color: whitesmoke;
+}
+.nslider .sdcenter .card .cover .size {
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+  transition: 300ms;
+  transition-delay: 700ms;
+  transform: translateX(100px);
+}
+.nslider .sdcenter .card .cover .size h4 {
+  width: 30px;
+  height: 30px;
+  font-family: yekan;
+  font-size: 14px;
+
+  background-color: whitesmoke;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  line-height: 30px;
+  display: inline-block;
+  transition: 300ms;
+  transition-delay: 700ms;
+}
+.nslider .sdcenter .card .cover a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: #1dbf6f;
+  line-height: 40px;
+  margin: 10px auto;
+  border-radius: 28px;
+  border: 1px solid #1dbf6f;
+  opacity: 0;
+  transition: 300ms;
+  transition-delay: 800ms;
+  transform: translatey(100px);
+}
+.nslider .sdcenter .card:hover .cover h1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nslider .sdcenter .card:hover .cover p {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nslider .sdcenter .card:hover .cover h3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+.nslider .sdcenter .card:hover .cover .size {
+  opacity: 1;
+  transform: translateX(0);
+}
+.nslider .sdcenter .card:hover .cover a {
+  opacity: 1;
+  transform: translatey(0);
+}
+.nslider .sdcenter .card:hover .cover {
+  top: 0;
+}
+
+/* end card-slider */
+
+.jorab {
+  width: 100%;
+  height: 290px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.jorab .center {
+  width: 1500px;
+  height: 260px;
+  margin: 0 auto;
+}
+.jorab .center .image {
+  width: 1440px;
+  height: 260px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.jorab .center .image a {
+  display: inline-block;
+  width: 690px;
+  height: 216px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jorab .center .image a img {
+  width: 690px;
+  height: 216px;
+  border-radius: 10px 10px 0 0;
+  transition: 300ms;
+}
+.jorab .center .image a:hover img {
+  transform: scale(1.03, 1.03);
+}
+
+.khab {
+  width: 100%;
+  height: 255px;
+}
+
+.khab .image {
+  width: 1410px;
+  height: 230px;
+  margin: 0 auto;
+}
+.khab .image a img {
+  width: 1410px;
+  height: 230px;
+  border-radius: 10px 10px 0 0;
+  transition: 300ms;
+}
+.khab .image a:hover img {
+  transform: scale(1.03, 1.03);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

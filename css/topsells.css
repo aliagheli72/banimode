@@ -1,0 +1,90 @@
+.topsells {
+  width: 100%;
+  height: 680px;
+  margin-top: 70px;
+}
+.topsells .center {
+  width: 1450px;
+  height: 650px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.topsells .center .titrtps {
+  width: 275px;
+  height: 35px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.topsells .center .titrtps span {
+  width: 100%;
+  height: 25px;
+  font-family: yekan;
+  margin: 0 auto;
+  color: black;
+  line-height: 35px;
+  font-size: 26px;
+}
+.swiper-slide .titr .textasli {
+  color: black;
+  font-size: 18px;
+  text-decoration: unset;
+}
+
+.topsells .seeall {
+  width: 100%;
+  height: 60px;
+  margin-top: -70px;
+}
+.topsells .seeall a{
+    display: block;
+    width: 100%;
+}
+.topsells .seeall .sabutton {
+  width: 270px;
+  height: 55px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 28px;
+}
+.topsells .seeall .sabutton span {
+  font-family: yekan;
+  font-size: 18px;
+  line-height: 55px;
+}
+.topsells .seeall .sabutton a {
+  text-decoration: none;
+}
+
+.topsells .seeall .sabutton:hover {
+  border-color: #27af6e;
+}
+.topsells .seeall .sabutton a:link {
+  color: #27af6e;
+}
+.topsells .seeall .sabutton a:visited {
+  color: #27af6e;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

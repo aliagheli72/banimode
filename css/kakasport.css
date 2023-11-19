@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tks {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 50px;
+  background-color: #2b2b2b;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: #30bd5f;
+  border-radius: 25%;
+}
+.category {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 100px;
+}
+.category .center {
+  width: 1275px;
+  height: 230px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.category .center h2 {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 45px;
+  font-family: yekan;
+  font-size: 26px;
+}
+
+.category .center .item {
+  width: 114px;
+  height: 145px;
+  display: inline-block;
+  margin: 10px 63px;
+}
+
+.cate2 {
+  width: 100%;
+  height: 360px;
+  margin-bottom: 30px;
+
+}
+.cate2 .center {
+  width: 1375px;
+  height: 360px;
+  margin: 0 auto;
+  text-align: center;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cate2 .center h2 {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 45px;
+  font-family: yekan;
+  font-size: 28px;
+}
+.cate2 .center .items {
+  display: inline-block;
+  width: 330px;
+  height: 251px;
+  background-color: #30bd5f;
+  margin: 10px 50px;
+}
+
+.nps{
+    width: 100%;
+    height: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.nps h2{
+    width: 170px;
+    height: 50px;
+    font-family: yekan;
+    font-size: 28px;
+    margin: 30px auto;
+    margin-bottom: 30px;
+}
+.nps .center{
+    width: 1380px;
+    height: 650px;
+
+    margin: 0 auto;
+}
+.nps .center .card{
+    width:100%;
+    height:100%;
+    text-align: right;
+    object-fit: cover;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: unset;
+}
+.nps .center .card .image{
+    width: 100%;
+    height: 396px;
+}
+.nps .center .card .image img{
+    width: 100%;
+    height: 396px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.nps .center .card .titr{
+    display: inline-block;
+ width: 45%;
+ height: 45px;
+ margin-right: auto;
+ font-family: yekan;
+ text-transform: capitalize;
+ font-size: 18px;
+ text-align: right;
+ line-height: 45px;
+ margin-top: 10px;
+}
+.nps .center .card .discount{
+    display: inline-block;
+    width: 49%;
+    height: 45px;
+    margin-right: auto;
+    font-family: yekan;
+    font-size: 14px;
+    text-align: left;
+    line-height: 45px;
+    margin-top: 10px;
+    vertical-align: top;
+    text-decoration: line-through;
+}
+
+.nps .center .card .caption{
+    display: inline-block;
+    width: 50%;
+    height: 45px;
+    margin-right: auto;
+    font-family: yekan;
+    font-size: 14px;
+    text-align: left;
+    line-height: 45px;
+    margin-top: 10px;
+}
+.nps .center .card .caption p{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    direction: rtl;
+    color: grey;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.nps .center .card .nowcount{
+    display: inline-block;
+    width: 45%;
+    height: 45px;
+    margin-right: auto;
+    font-family: yekan;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 10px;
+    vertical-align: top;
+    color: #30bd5f;
+
+}
+.nps .center .card .size{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    margin: 0 auto;
+}
+.nps .center .card .size h3{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+    font-family: yekan;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.nps .center .card .send{
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    text-align: right;
+    font-family: yekan;
+font-size: 14px;
+font-weight: lighter;
+color: grey;
+}
+.nps .center .card .send p{
+    margin-right: 30px;
+}
+.nps .center .card .send p i{
+    font-size: 18px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.nps .seebtn{
+width: 250px;
+height: 45px;
+border-radius: 20px;
+background-color: whitesmoke;
+border: 1px solid gray;
+text-align: center;
+margin: 70px auto;
+}
+
+.nps .seebtn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: yekan;
+    color: #30bd5f;
+    text-decoration: none;
+    line-height: 45px;
+}
+.nps .seebtn:hover{
+    border-color: #30bd5f;
+}
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper .mySwiper-nps {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide .mySwiper-nps{
+
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .mySwiper-nps img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

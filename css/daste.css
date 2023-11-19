@@ -1,0 +1,27 @@
+.daste{
+    width: 100%;
+    height: 270px;
+    margin-top: 40px;
+}
+.daste .daste-center {
+    width: 1450px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.daste .daste-center a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+.daste .daste-center a img{
+    width: 333px;
+    height: 235px;
+    border-radius: 8px;
+    margin: 5px 10px;
+    transition: 300ms;
+}
+.daste .daste-center a img:hover{
+    transform: scale(1.1,1.1);
+}

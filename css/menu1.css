@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menusize {
+  width: 100%;
+  height: 40px;
+}
+.menusize .menu {
+  width: 1400px;
+  height: inherit;
+  margin: 0 auto;
+}
+
+.menusize .menu nav {
+  width: inherit;
+  height: inherit;
+}
+
+.menusize .menu nav ul {
+  width: inherit;
+  height: inherit;
+  list-style: none;
+  text-align: center;
+}
+.menusize .menu nav ul li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+  transition: 300ms;
+  position: relative;
+}
+
+.menusize .menu nav ul li a {
+  display: block;
+  width: auto;
+  text-decoration: none;
+  height: inherit;
+  padding: 0 10px;
+  color: black;
+  padding-right: 20px;
+  box-sizing: border-box;
+  font-family: yekan;
+  line-height: 40px;
+  font-weight: 100;
+  font-size: 14px;
+  transition: 300ms;
+}
+.menusize .menu nav ul li a:hover {
+  background-color: #efeeee;
+  text-decoration: underline 2px solid #00bf6f;
+  text-underline-offset: 15px;
+}
+.menusize .menu nav ul li a i {
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.menusize .menu nav ul li .submenu {
+  width: 75vw;
+  background-color: white;
+  height: 60vh;
+  text-align: justify;
+  position: absolute;
+  display: none;
+  overflow: auto;
+  direction: ltr;
+  transition: 300ms;
+}
+.menusize .menu nav ul li:hover .submenu {
+  display: block;
+}
+.menusize .menu nav ul li .submenu div {
+  width: 15%;
+  /* border-left: 0.5px solid #5b5b5b; */
+  position: absolute;
+  right: 0;
+}
+
+.menusize .menu nav ul li .submenu div div {
+  width: 99%;
+  text-align: center;
+  height: 45px;
+  position: unset;
+}
+
+.menusize .menu nav ul li .submenu div div a {
+  color: black;
+  width: 100%;
+  display: block;
+  text-align: right;
+  font-family: yekan;
+  font-size: 12px;
+}
+
+.menusize .menu nav ul li .submenu div div a:hover {
+  text-decoration: none;
+  color: #1dbf6f;
+}
+
+.menusize .menu nav ul li .submenu div div .subsubmenu {
+  width: calc(75vw * 0.85);
+  height: 100%;
+  text-align: right;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  display: none;
+}
+.menusize .menu nav ul li .submenu div div:hover .subsubmenu {
+  display: block;
+}
+.menusize .menu nav ul li .submenu div div .subsubmenu h1 {
+  font-family: yekan;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.menusize .menu nav ul li .submenu div div .subsubmenu h1 i {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.menusize .menu nav ul li .submenu div div .subsubmenu .msubsubmenu {
+  width: calc((75vw * 0.8) / 4);
+  height: 100%;
+
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.menusize .menu nav ul li .submenu div div .subsubmenu .msubsubmenu a {
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+.menusize
+  .menu
+  nav
+  ul
+  li
+  .submenu
+  div
+  div
+  .subsubmenu
+  .msubsubmenu
+  .lismsubsubmenu {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+}
+.menusize
+  .menu
+  nav
+  ul
+  li
+  .submenu
+  div
+  div
+  .subsubmenu
+  .msubsubmenu
+  .lismsubsubmenu
+  h1
+  i {
+  margin-left: 5px;
+}
+.menusize
+  .menu
+  nav
+  ul
+  li
+  .submenu
+  div
+  div
+  .subsubmenu
+  .msubsubmenu
+  .lismsubsubmenu
+  li {
+  width: inherit;
+  height: 35px;
+  display: block;
+}
+.menusize
+  .menu
+  nav
+  ul
+  li
+  .submenu
+  div
+  div
+  .subsubmenu
+  .msubsubmenu
+  .lismsubsubmenu
+  li
+  a {
+  font-size: 12px;
+  color: #5b5b5b;
+  font-weight: 100;
+}
+
+::-webkit-scrollbar-thumb {
+  color: #00bf6f;
+}

@@ -1,0 +1,96 @@
+.banimag {
+  width: 100%;
+  height: 550px;
+  padding: 1px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.banimag .titr {
+  width: 300px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.banimag .titr h2 {
+  font-family: yekan;
+  font-size: 26px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.banimag .bms {
+  width: 1490px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 380px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.banimag .bms .swiper-slide .titrtext span {
+  font-family: yekan;
+  line-height: 80px;
+  font-size: 16px;
+  color: black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.banimag .bms .swiper-slide .titrtext:hover span {
+  color: #20cf74;
+}
+.banimag .bms .swiper-slide:hover .titrtext span {
+  color: #20cf74;
+}
+
+.banimag .bmbtm {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  position: relative;
+}
+.banimag .bmbtm .seeall {
+  width: 270px;
+  height: 55px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 28px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: calc(50% - 55px / 2);
+  right: calc(50% - 270px / 2);
+}
+.banimag .bmbtm .seeall a {
+  display: block;
+  text-decoration: none;
+  line-height: 55px;
+  color: #20cf74;
+  font-family: yekan;
+  font-size: 18px;
+}
+.banimag .bmbtm:hover .seeall{
+    border-color: #20cf74;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,102 @@
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu {
+  width: 30vw;
+  background-color: whitesmoke;
+  height: 60vh;
+  text-align: justify;
+  position: absolute;
+  display: none;
+  overflow: auto;
+  direction: ltr;
+  z-index: 2;
+  transition: 300ms;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li:hover .brandsmenu {
+  display: block;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu div {
+  width: 40%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu div div {
+  width: 98%;
+  position: unset;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu div h2{
+    width: 100%;
+    font-family: yekan;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-right: 2px solid #1dbf6f ;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu div div a {
+  /* all: unset; */
+  display: block;
+  width: 99%;
+  height: 30px;
+  color: gray;
+  text-align: center;
+  line-height: 30px;
+  font-family: yekan;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu div div a:hover{
+    text-decoration: none;
+    color:#1dbf6f ;
+} 
+
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo{
+    width: 60%;
+    height: inherit;
+    border-right: 1px solid gray;
+    position: relative;
+
+}
+
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo div{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo div div{
+    width: 50%;
+    text-align: right;
+    position: unset;
+    right:0;
+}
+
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo div a{
+    width: inherit;
+    display: block;
+    margin: 10px auto;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo div a img{
+    width: 222px;
+    height: 45px;
+
+
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo h3{
+width: 100%;
+font-family: yekan;
+font-size: 16px;
+margin-left: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.header .bottomheader .bbh .menusize .menu nav ul li .brandsmenu .brandslogo h3 i{
+    margin-left: 5px;
+}
