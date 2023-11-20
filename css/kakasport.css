@@ -73,6 +73,12 @@
   background-color: #30bd5f;
   margin: 10px 50px;
 }
+.cate2 .center .items img{
+  transition: 300ms;
+}
+.cate2 .center .items:hover img{
+transform: scale(1.03, 1.03);
+}
 
 .nps{
     width: 100%;
