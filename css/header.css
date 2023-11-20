@@ -120,7 +120,7 @@
 .header .bottomheader .bbh .menusize .menu {
   width: 1400px;
   height: inherit;
-  margin: 0 auto;
+margin-right: -30px;
 }
 
 .header .bottomheader .bbh .menusize .menu nav {
