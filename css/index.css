@@ -8,7 +8,6 @@
 @import "./topsells.css";
 @import "./menu.css";
 @import "./Call.css";
-@import "./item.css";
 @import "./brands.css";
 @import "./banimag.css";
 @import "./email.css";
@@ -19,3 +18,4 @@
 @import "./kakasport.css";
 @import "./atr.css";
 @import "./loading.css";
+@import "./Item.css";
