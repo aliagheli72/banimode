@@ -78,6 +78,7 @@
   display: inline-block;
   vertical-align: top;
   margin-right: -4px;
+  position: relative;
 }
 .header .bottomheader .tbh .center .search input[type="search"] {
   width: 700px;
@@ -92,11 +93,21 @@
   border: unset;
   outline: unset;
   transition: 300ms;
+  padding-right: 70px;
 }
 .header .bottomheader .tbh .center .search input[type="search"]::placeholder {
   font-family: yekan;
   color: grey;
   font-weight: bold;
+
+}
+.header .bottomheader .tbh .center .search span{
+  position: absolute;
+  top: 30px;
+  right:120px;
+}
+.header .bottomheader .tbh .center .search span i{
+  font-size: 28px;
 }
 .header .bottomheader .tbh .center .search input[type="search"]:focus {
   width: 750px;
@@ -160,7 +171,7 @@ margin-right: -30px;
 }
 .header .bottomheader .bbh .menusize .menu nav ul li a:hover {
   text-decoration: underline 2px solid #00bf6f;
-  text-underline-offset: 18px;
+  text-underline-offset: 15px;
 
 }
 .header .bottomheader .bbh .menusize .menu nav ul li a i {
